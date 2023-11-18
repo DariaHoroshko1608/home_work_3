@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table, th, td {
+            border: 2px solid MidnightBlue;
+            border-collapse: collapse;
+        }
+        th, td {
+            width: 180px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 1200px; margin: 0 auto;">
+        <table style="width: 600px; height: 400px; margin: 20px auto;">
+            <caption style="font-size: 40px; font-weight: 700; margin-bottom: 20px;">
+                Таблиця Мондриана
+            </caption>
+            <tbody>
+                <tr>
+                    <td colspan="2" style="background-color: Gainsboro;"></td>
+                    <td style="background-color: RosyBrown;"></td>
+                    <td style="background-color: Cornsilk;"></td>
+                    <td style="background-color: SaddleBrown;"></td>
+                    <td rowspan="3" style="background-color: Maroon;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="background-color: aqua;"></td>
+                    <td style="background-color: Sienna;"></td>
+                    <td colspan="3" rowspan="2" style="background-color: GoldenRod;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: Maroon;"></td>
+                <tr>
+                    <td colspan="3" rowspan="2" style="background-color: GoldenRod;"></td>
+                    <td style="background-color: firebrick;"></td>
+                    <td style="background-color: DarkKhaki;"></td>
+                    <td rowspan="2" style="background-color: Gold;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: darkgrey;"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>
